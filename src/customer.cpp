@@ -411,7 +411,7 @@ void Customer ::book_car(int i)
             eDate.saveDate();
         }
         end_date = eDate.stringdate;
-        cout << "| >> Enter manager user_id: ";
+        cout << "| >> Enter employee user_id: ";
         string manager_id;
         cin >> manager_id;
         while (isUser(manager_id) != 2 && isUser(manager_id) != 1)
@@ -474,7 +474,7 @@ void Customer ::book_car()
             eDate.saveDate();
         }
         end_date = eDate.stringdate;
-        cout << "| >> Enter manager user_id: ";
+        cout << "| >> Enter employee user_id: ";
         string manager_id;
         cin >> manager_id;
         while (isUser(manager_id) != 2 && isUser(manager_id) != 1)
