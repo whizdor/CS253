@@ -198,7 +198,7 @@ void Employee ::return_car()
                 cars[i].renter_user_id = "0";
                 cars[i].employee_user_id = "0";
 
-                vector<vector<string>> cars_list;
+                vector<vector<string> > cars_list;
                 for (int i = 0; i < cars.size(); i++)
                 {
                     cars_list.push_back(cars[i].cardetails());
@@ -214,7 +214,7 @@ void Employee ::return_car()
 
 void Employee ::view_dues()
 {
-    vector<vector<string>> user_dues = read_csv("data/" + user_id + "_dues.csv");
+    vector<vector<string> > user_dues = read_csv("data/" + user_id + "_dues.csv");
     if (user_dues.size() == 0)
     {
         print("No dues to show");
@@ -256,7 +256,7 @@ void Employee ::view_dues()
 void Employee ::clear_dues()
 {
     view_dues();
-    vector<vector<string>> user_dues = read_csv("data/" + user_id + "_dues.csv");
+    vector<vector<string> > user_dues = read_csv("data/" + user_id + "_dues.csv");
     if (user_dues.size() == 0)
     {
         return;
@@ -549,7 +549,7 @@ void Employee ::fix_car()
 void Employee ::logout()
 {
     save_employee_data();
-    vector<vector<string>> cars_list;
+    vector<vector<string> > cars_list;
     for (int i = 0; i < cars.size(); i++)
     {
         cars_list.push_back(cars[i].cardetails());

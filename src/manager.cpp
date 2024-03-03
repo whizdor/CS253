@@ -65,7 +65,7 @@ void Manager ::list_cars()
 
 void Manager ::add_customer()
 {
-    vector<vector<string>> users_list = read_csv("databases/customer.csv");
+    vector<vector<string> > users_list = read_csv("databases/customer.csv");
     string values[8];
 
     values[0] = "U" + to_string(stoi(users_list[(users_list.size() - 1)][0].substr(1, users_list[(users_list.size() - 1)][0].size() - 1)) + 1);
@@ -140,7 +140,7 @@ void Manager ::add_customer()
 }
 void Manager ::add_employee()
 {
-    vector<vector<string>> users_list = read_csv("databases/employee.csv");
+    vector<vector<string> > users_list = read_csv("databases/employee.csv");
     string values[8];
 
     values[0] = "E" + to_string(stoi(users_list[(users_list.size() - 1)][0].substr(1, users_list[(users_list.size() - 1)][0].size() - 1)) + 1);
@@ -302,7 +302,7 @@ void Manager ::remove_car()
             }
             cars.erase(cars.begin() + i, cars.begin() + i + 1);
 
-            vector<vector<string>> cars_list;
+            vector<vector<string> > cars_list;
             for (int i = 0; i < cars.size(); i++)
             {
                 cars_list.push_back(cars[i].cardetails());
@@ -580,6 +580,94 @@ void Manager ::update_customer()
     }
 }
 
+void Manager ::list_employee()
+{
+    print("No.", "User ID", "Name", "email");
+    cout << line_break;
+    int count = 1;
+    for (int i = 0; i < users.size(); i++)
+    {
+        if (users[i].type == "E")
+        {
+            print(to_string((count)), users[i].user_id, users[i].name, users[i].email);
+            count++;
+        }
+    }
+}
+
+void Manager ::search_employee()
+{
+    print("Press enter to continue");
+    cin.ignore(1000, '\n');
+    cout << "| >> Enter name of the employee to be searched: ";
+    string name;
+    getline(cin, name);
+    get_user_data();
+    int i = 0;
+    for (i = 0; i < users.size(); i++)
+    {
+        if (users[i].name == name)
+        {
+            if (users[i].type == "E")
+            {
+                cout << line_break;
+                print("User ID: " + users[i].user_id);
+                print("Name: " + users[i].name);
+                print("Age: " + users[i].age);
+                cout << line_break;
+            }
+        }
+    }
+    if (i == users.size())
+    {
+        print("Employee not found");
+    }
+}
+
+void Manager ::list_customer()
+{
+    print("No.", "User ID", "Name", "email");
+    cout << line_break;
+    int count = 1;
+    get_user_data();
+    for (int i = 0; i < users.size(); i++)
+    {
+        if (users[i].type == "C")
+        {
+            print(to_string((count)), users[i].user_id, users[i].name, users[i].email);
+            count++;
+        }
+    }
+}
+
+void Manager ::search_customer()
+{
+    print("Press enter to continue");
+    cin.ignore(1000, '\n');
+    cout << "| >> Enter name of the customer to be searched: ";
+    string name;
+    getline(cin, name);
+    get_user_data();
+    int i = 0;
+    for (i = 0; i < users.size(); i++)
+    {
+        if (users[i].name == name)
+        {
+            if (users[i].type == "C")
+            {
+                cout << line_break;
+                print("User ID: " + users[i].user_id);
+                print("Name: " + users[i].name);
+                print("Age: " + users[i].age);
+                cout << line_break;
+            }
+        }
+    }
+    if (i == users.size())
+    {
+        print("Employee not found");
+    }
+}
 void Manager ::manager_menu()
 {
     cout << line_break;
@@ -596,16 +684,20 @@ void Manager ::manager_menu()
         print(" 6. View Dues");
         print(" 7. Clear Dues");
         print(" 8. Return Car");
-        print(" 9. Add Employee");
-        print(" 10. Remove Employee");
-        print(" 11. Update Employee");
-        print(" 12. Add Customer");
-        print(" 13. Remove Customer");
-        print(" 14. Update Customer");
-        print(" 15. Add Car");
-        print(" 16. Remove Car");
-        print(" 17. Update Car Details");
-        print(" 18. Fix Car");
+        print(" 9. List Employees");
+        print(" 10. Search Employees");
+        print(" 11. Add Employee");
+        print(" 12. Remove Employee");
+        print(" 13. Update Employee");
+        print(" 14. List Customer");
+        print(" 15. Search Customer");
+        print(" 16. Add Customer");
+        print(" 17. Remove Customer");
+        print(" 18. Update Customer");
+        print(" 19. Add Car");
+        print(" 20. Remove Car");
+        print(" 21. Update Car Details");
+        print(" 22. Fix Car");
         print(" 0. LogOut");
         print("");
         cout << "| >> Enter your choice: ";
@@ -644,33 +736,45 @@ void Manager ::manager_menu()
                 return_car();
                 break;
             case 9:
-                add_employee();
+                list_employee();
                 break;
             case 10:
-                remove_employee();
+                search_employee();
                 break;
             case 11:
-                update_employee();
+                add_employee();
                 break;
             case 12:
-                add_customer();
+                remove_employee();
                 break;
             case 13:
-                remove_customer();
+                update_employee();
                 break;
             case 14:
-                update_customer();
+                list_customer();
                 break;
             case 15:
-                add_car();
+                search_customer();
                 break;
             case 16:
-                remove_car();
+                add_customer();
                 break;
             case 17:
-                update_car_details();
+                remove_customer();
                 break;
             case 18:
+                update_customer();
+                break;
+            case 19:
+                add_car();
+                break;
+            case 20:
+                remove_car();
+                break;
+            case 21:
+                update_car_details();
+                break;
+            case 22:
                 fix_car();
                 break;
             case 0:
@@ -686,7 +790,7 @@ void Manager ::manager_menu()
 void Manager ::logout()
 {
     save_employee_data();
-    vector<vector<string>> cars_list;
+    vector<vector<string> > cars_list;
     for (int i = 0; i < cars.size(); i++)
     {
         cars_list.push_back(cars[i].cardetails());

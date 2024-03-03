@@ -47,23 +47,47 @@ void print(string a, string b)
 
 void print(string d, string a, string b, string c)
 {
-    cout << "| " << d;
+    cout << "| ";
+    if (d.length() > 3)
+    {
+        d = d.substr(0, 1);
+        d = d + "..";
+    }
+    cout << d;
     for (int i = 0; i < 3 - d.length(); i++)
     {
         cout << " ";
     }
-    cout << "| " << a;
-    for (int i = 0; i < 20 - a.length(); i++)
+    cout << "| ";
+    if (a.length() > 10)
+    {
+        a = a.substr(0, 8);
+        a = a + "..";
+    }
+    cout << a;
+    for (int i = 0; i < 10 - a.length(); i++)
     {
         cout << " ";
     }
-    cout << "| " << b;
-    for (int i = 0; i < 11 - b.length(); i++)
+    cout << "| ";
+    if (b.length() > 41)
+    {
+        b = b.substr(0, 39);
+        b = b + "..";
+    }
+    cout << b;
+    for (int i = 0; i < 41 - b.length(); i++)
     {
         cout << " ";
     }
-    cout << "| " << c;
-    for (int i = 0; i < 48 - c.length(); i++)
+    cout << "| ";
+    if (c.length() > 28)
+    {
+        c = c.substr(0, 26);
+        c = c + "..";
+    }
+    cout << c;
+    for (int i = 0; i < 28 - c.length(); i++)
     {
         cout << " ";
     }
@@ -73,12 +97,24 @@ void print(string d, string a, string b, string c)
 
 void print(string a, string b, string c, string d, string e, string f, string g, string h)
 {
-    cout << "| " << a;
+    cout << "| ";
+    if (a.length() > 3)
+    {
+        a = a.substr(0, 1);
+        a = a + "..";
+    }
+    cout << a;
     for (int i = 0; i < 3 - a.length(); i++)
     {
         cout << " ";
     }
-    cout << "| " << b;
+    cout << "| ";
+    if (b.length() > 14)
+    {
+        b = b.substr(0, 12);
+        b = b + "..";
+    }
+    cout << b;
     for (int i = 0; i < 14 - b.length(); i++)
     {
         cout << " ";

@@ -29,7 +29,7 @@ User::User(vector<string> data)
 void User ::get_user_data()
 {
     users.clear();
-    vector<vector<string>> users_list = read_customers_db();
+    vector<vector<string> > users_list = read_customers_db();
     for (int i = 0; i < users_list.size(); i++)
     {
         User usr(users_list[i]);
@@ -54,9 +54,9 @@ vector<string> User ::user_data()
 
 void User ::write_user_data()
 {
-    vector<vector<string>> customer_list;
-    vector<vector<string>> employee_list;
-    vector<vector<string>> manager_list;
+    vector<vector<string> > customer_list;
+    vector<vector<string> > employee_list;
+    vector<vector<string> > manager_list;
     for (int i = 0; i < users.size(); i++)
     {
         if (users[i].type == "C")
@@ -107,7 +107,7 @@ int User ::isUser(string a)
 }
 void User ::registeration()
 {
-    vector<vector<string>> users_list = read_csv("databases/customers.csv");
+    vector<vector<string> > users_list = read_csv("databases/customer.csv");
     user_id = "U" + to_string(stoi(users_list[(users_list.size() - 1)][0].substr(1, users_list[(users_list.size() - 1)][0].size() - 1)) + 1);
     cout << "| >> Enter your name: ";
     cin.ignore(1000, '\n');
@@ -170,7 +170,7 @@ void User ::registeration()
     data.push_back(email);
     data.push_back(dl_number);
     data.push_back("C");
-    write_csv_line("databases/customers.csv", data);
+    write_csv_line("databases/customer.csv", data);
     print("Registered successfully");
     print("Your user_id is: " + user_id);
     print("Please remember it for future use");

@@ -13,9 +13,9 @@ vector<string> split(string str)
     return internal;
 }
 
-vector<vector<string>> read_customers_db()
+vector<vector<string> > read_customers_db()
 {
-    vector<vector<string>> data;
+    vector<vector<string> > data;
     ifstream file("databases/customer.csv");
     if (!file.is_open())
     {
@@ -53,9 +53,9 @@ vector<vector<string>> read_customers_db()
     return data;
 }
 
-vector<vector<string>> read_csv(string filename)
+vector<vector<string> > read_csv(string filename)
 {
-    vector<vector<string>> data;
+    vector<vector<string> > data;
     ifstream file(filename);
     if (!file.is_open())
     {
@@ -102,7 +102,7 @@ void write_csv_line_clear(string filename, vector<string> data)
     return;
 }
 
-void write_csv(string filename, vector<vector<string>> data)
+void write_csv(string filename, vector<vector<string> > data)
 {
     ofstream file(filename);
     file.clear();

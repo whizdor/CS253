@@ -189,6 +189,8 @@ public:
 
     void list_cars();
 
+    void list_employee();
+    void search_employee();
     void add_employee();
     void remove_employee();
     void update_employee();
@@ -196,6 +198,8 @@ public:
     void add_car();
     void remove_car();
 
+    void list_customer();
+    void search_customer();
     void add_customer();
     void remove_customer();
     void update_customer();
@@ -212,11 +216,11 @@ void print(string, string, string, string);
 void print(string, string, string, string, string, string, string, string);
 
 vector<string> split(string);
-vector<vector<string>> read_csv(string);
-vector<vector<string>> read_customers_db();
+vector<vector<string> > read_csv(string);
+vector<vector<string> > read_customers_db();
 void write_csv_line(string, vector<string>);
 void write_csv_line_clear(string, vector<string>);
-void write_csv(string, vector<vector<string>>);
+void write_csv(string, vector<vector<string> >);
 
 void Clear()
 {
