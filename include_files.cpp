@@ -1,0 +1,8 @@
+#include "src/user.cpp"
+#include "src/employees.cpp"
+#include "src/customer.cpp"
+#include "src/manager.cpp"
+#include "src/cars.cpp"
+#include "src/date.cpp"
+#include "src/database.cpp"
+#include "src/print.cpp"
