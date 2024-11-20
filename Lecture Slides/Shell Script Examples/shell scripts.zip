@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# " class="h-100">
+  <head>
+    <meta charset="utf-8" />
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZLD0V1ECY0"></script>
+<script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag("js", new Date());gtag("set", "developer_id.dMDhkMT", true);gtag("config", "G-ZLD0V1ECY0", {"groups":"default","allow_ad_personalization_signals":false,"page_location":"/404.html?page=" + document.location.pathname + document.location.search + "&from=" + document.referrer});</script>
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/sites/default/files/favicon_0.ico" type="image/vnd.microsoft.icon" />
+
+    <title>Page not found | Home</title>
+    <link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/ajax-progress.module.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/align.module.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/autocomplete-loading.module.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/fieldgroup.module.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/container-inline.module.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/clearfix.module.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/details.module.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/hidden.module.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/item-list.module.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/js.module.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/nowrap.module.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/position-container.module.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/progress.module.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/reset-appearance.module.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/resize.module.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/sticky-header.module.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/system-status-counter.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/system-status-report-counters.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/system-status-report-general-info.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/tabledrag.module.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/tablesort.module.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/tree-child.module.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/modules/custom/mookit_alias/css/alias.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/modules/custom/mookit_communication/css/communication.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/modules/custom/mookit_enterprise/css/mookit_enterprise.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/modules/custom/mookit_enuser/css/mookit_enuser.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/modules/custom/mookit_enuser/css/form-override.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/modules/contrib/gavias_sliderlayer/vendor/revolution/css/settings.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/modules/contrib/gavias_sliderlayer/vendor/revolution/css/layers.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/modules/contrib/gavias_sliderlayer/vendor/revolution/css/navigation.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/core/assets/vendor/normalize-css/normalize.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/action-links.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/breadcrumb.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/container-inline.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/details.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/exposed-filters.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/field.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/form.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/icons.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/inline-form.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/item-list.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/links.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/menu.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/more-link.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/pager.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/tabledrag.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/tableselect.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/tablesort.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/textarea.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/ui-dialog.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/messages.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/progress.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/themes/hello/css/fonts.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/themes/hello/css/style.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/themes/hello/css/offcanvas.css?smh9cc" />
+<link rel="stylesheet" media="all" href="/themes/hello/css/custom.css?smh9cc" />
+
+    <script src="/core/assets/vendor/jquery/jquery.min.js?v=3.7.1"></script>
+<script src="/modules/contrib/gavias_sliderlayer/vendor/revolution/js/source/jquery.themepunch.tools.min.js?v=1.x"></script>
+<script src="/modules/contrib/gavias_sliderlayer/vendor/revolution/js/source/jquery.themepunch.revolution.js?v=1.x"></script>
+<script src="/modules/contrib/gavias_sliderlayer/vendor/revolution/js/extensions/revolution.extension.actions.min.js?v=1.x"></script>
+<script src="/modules/contrib/gavias_sliderlayer/vendor/revolution/js/extensions/revolution.extension.carousel.min.js?v=1.x"></script>
+<script src="/modules/contrib/gavias_sliderlayer/vendor/revolution/js/extensions/revolution.extension.kenburn.min.js?v=1.x"></script>
+<script src="/modules/contrib/gavias_sliderlayer/vendor/revolution/js/extensions/revolution.extension.layeranimation.min.js?v=1.x"></script>
+<script src="/modules/contrib/gavias_sliderlayer/vendor/revolution/js/extensions/revolution.extension.migration.min.js?v=1.x"></script>
+<script src="/modules/contrib/gavias_sliderlayer/vendor/revolution/js/extensions/revolution.extension.navigation.min.js?v=1.x"></script>
+<script src="/modules/contrib/gavias_sliderlayer/vendor/revolution/js/extensions/revolution.extension.parallax.min.js?v=1.x"></script>
+<script src="/modules/contrib/gavias_sliderlayer/vendor/revolution/js/extensions/revolution.extension.slideanims.min.js?v=1.x"></script>
+<script src="/modules/contrib/gavias_sliderlayer/vendor/revolution/js/extensions/revolution.extension.video.min.js?v=1.x"></script>
+
+  </head>
+  <body class="anonymous path-manage    bg-bg-color d-flex flex-column h-100">
+        <div class="visually-hidden-focusable skip-link p-3 container">
+      <a href="#main-content" class="p-2">
+        Skip to main content
+      </a>
+    </div>
+    
+      <div class="dialog-off-canvas-main-canvas d-flex flex-column h-100" data-off-canvas-main-canvas>
+    
+<style>
+.anonymous header .main-header .user-menu-section {
+  display: none;
+}
+</style>
+
+
+
+<header>
+  
+
+    <nav class="navbar navbar-expand-lg main-header navbar-light text-dark ">
+    <div class="container d-flex">
+        <div class="region region-nav-branding">
+    <div id="block-hello-branding" class="block block-system block-system-branding-block">
+  
+    
+  <div class="navbar-brand d-flex align-items-center">
+
+    <a href="/" title="Home" rel="home" class="site-logo d-block">
+    <img src="/sites/default/files/Frame%20133.png" alt="Home" />
+  </a>
+  
+  </div>
+</div>
+
+  </div>
+
+
+              <div class="user-menu-section justify-content-md-end" id="navbarSupportedContent">
+                    <span class="d-none d-lg-block">
+                <div class="region region-nav-additional">
+    <nav role="navigation" aria-labelledby="block-hello-account-menu-menu" id="block-hello-account-menu" class="block block-menu navigation menu--account">
+            
+  <h5 class="visually-hidden" id="block-hello-account-menu-menu">User account menu</h5>
+  
+
+        
+              <ul data-block="nav_additional" class="nav navbar-nav">
+                    <li class="nav-item">
+        <a href="/user/login" class="nav-link" data-drupal-link-system-path="user/login">Log in</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </div>
+          </span>
+          <button class="navbar-toggler p-0 border-0 hamburger-icon" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+                        <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+          </div>
+  </nav>
+  
+</header>
+
+<main role="main" class="page-n-found">
+  <a id="main-content" tabindex="-1"></a>
+  <div class="container main-container">
+    
+        <div class="row g-0">
+      <div class="order-1 order-lg-2 main-content-area ">
+        <div class="access-denied">
+          <div class="broken-link"><i class="ph ph-link-break"></i></div>
+          <div class="message">
+            <h1>Error 404</h1>
+            <p>Page not Found!!!</p>
+            <div class="go-back-home">
+			        <a href="https://hello.iitk.ac.in/">< Go To Home Page</a>
+            </div>
+          </div>
+        </div>
+      </div>
+          </div>
+  </div>
+
+</main>
+
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"eJxlUNtOwzAM_aG0eYHviZzUBA8nnnI8RPn6lYmxtbxY5yb52NnM4YPOL6nZQhozftG8CKnVmU70FfI99hozgXf8D04nTErO8Ge_qmXSCb6q9PrsNAaoMkKxwbHbaKTyzaHSpxASVBYeSiuP-F-aCWDH_DasO_clVLOqnKiTri4F8SiEd1a1Y59m9iGets2EeJtJJQ8a690q1tqlSyEX63HHjlHeqozzEHB8wJ_QI3DBds6OpQIErHBut-deAS2Pnzc","theme":"hello","theme_token":null},"ajaxTrustedUrl":[],"google_analytics":{"account":"G-ZLD0V1ECY0","trackOutbound":true,"trackMailto":true,"trackTel":true,"trackDownload":true,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"user":{"uid":0,"permissionsHash":"ec27732cadcab8e93898ebc18127b5c203c3a00dc9daa6b0a47c6c384eaddfbc"}}</script>
+<script src="/core/assets/vendor/once/once.min.js?v=1.0.1"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=10.2.6"></script>
+<script src="/core/misc/drupal.js?v=10.2.6"></script>
+<script src="/core/misc/drupal.init.js?v=10.2.6"></script>
+<script src="/core/assets/vendor/tabbable/index.umd.min.js?v=6.2.0"></script>
+<script src="/modules/contrib/google_analytics/js/google_analytics.js?v=10.2.6"></script>
+<script src="/themes/contrib/bootstrap5/dist/bootstrap/5.3.3/dist/js/bootstrap.bundle.js?v=5.3.3"></script>
+<script src="/themes/hello/js/custom.js?smh9cc"></script>
+<script src="/themes/hello/js/offcanvas.js?smh9cc"></script>
+<script src="/core/misc/progress.js?v=10.2.6"></script>
+<script src="/core/assets/vendor/loadjs/loadjs.min.js?v=4.2.0"></script>
+<script src="/core/misc/debounce.js?v=10.2.6"></script>
+<script src="/core/misc/announce.js?v=10.2.6"></script>
+<script src="/core/misc/message.js?v=10.2.6"></script>
+<script src="/core/misc/ajax.js?v=10.2.6"></script>
+<script src="/core/misc/displace.js?v=10.2.6"></script>
+<script src="/modules/contrib/bootstrap4_modal/js/bs4_modal.dialog.js?v=10.2.6"></script>
+<script src="/modules/contrib/bootstrap4_modal/js/bs4_modal.dialog.ajax.js?v=10.2.6"></script>
+
+  </body>
+</html>

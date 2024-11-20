@@ -1,6 +1,6 @@
 # Semester 4
 
-This repository contains the assignments for the course CS253: Software Development Operations, taken by Prof. Indranil Saha, during 2024 Semester - II.
+This repository contains the assignments, quizzes, lectures for the course CS253: Software Development Operations, taken by Prof. Indranil Saha, during 2024, Winters (Semester 4).
 
 ## Assignment 1
 Car Rental System using C++.
@@ -11,8 +11,6 @@ Shell Scripting.
 ## Assignment 3
 Maching Learning using Python.
 
-# Contributors
+## Course Project
+The course project is available on : [Elysium](https://github.com/aleph-7/elysium)
 
-These assignments have been done by:
-
-- Kushagra Srivastava
